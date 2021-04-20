@@ -10,6 +10,6 @@ def dot_between(word):
     return full_list
 
 
-word = 'abcd'
-print(dot_between(word))
-print(len(dot_between(word)))
+text = 'abcd'
+print(dot_between(text))
+print(len(dot_between(text)))
