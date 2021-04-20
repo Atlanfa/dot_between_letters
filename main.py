@@ -5,10 +5,10 @@ def dot_between(text):
     full_list=[]
     for lst in list_of_words:
       full_list.extend(lst)
-    full_list.pop(0)
     return list(dict.fromkeys(full_list))
 
 
-word = 'abcde'
+word = 'acbd'
 print(dot_between(word))
 print(len(dot_between(word)))
+print(2 ** (len(word)-1))
