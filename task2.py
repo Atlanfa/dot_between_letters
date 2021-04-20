@@ -5,7 +5,7 @@ def dot_between(word):
         new_word = word
         for j in range(len(str(i))):
             if str(i)[-j] == '1':
-                new_word = word[:(len(list_of_dots[-1])-j)] + '.' + new_word[(len(list_of_dots[-1])-j):]
+                new_word = word[:(len(word)-1-j)] + '.' + new_word[(len(word)-1-j):]
         full_list.append(new_word)
     return full_list
 
